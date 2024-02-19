@@ -1,0 +1,85 @@
+
+
+@media (max-width:760px) {
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .profilepic-top{
+        float:left;
+        width:25px;
+        border-radius:50%;
+        margin-right:10px;
+        height:25px;
+        object-fit:cover;
+        object-position:center center;
+    }
+    .username-top{
+        margin-top:0px;
+    }
+    .post-top{
+        height: 40px;
+        padding: 6px;
+    }
+    .post-img{
+        width: 100%;
+    }
+    .post-like{
+        width:20px;
+    }
+    .post-comment{
+        width:20px;
+        margin-left:5px;
+    }
+    .comment-type{
+        float: left;
+        width: 200px;
+    }
+    .comment-button{
+        background-color:black;
+        color:white;
+        margin: 0;
+        margin-left: 5px;
+        width: 100px;
+        float: left;
+    }
+}
+
+
+@media (min-width:760px) {
+    .card{
+        width: 600px;
+        margin-bottom: 10px;
+    }
+
+    .profilepic-top{
+        float:left;
+        width:35px;
+        border-radius:50%;
+        margin-right:10px;
+        height:35px;
+        object-fit:cover;
+        object-position:center center;
+    }
+
+    .username-top{
+        margin-top:4px;
+    }
+    .post-like{
+        width:30px;
+    }
+    .post-comment{
+        width:30px;
+        margin-left:5px;
+    }
+    .comment-type{
+        float: left;
+        width: 650px;
+    }
+    .comment-button{
+        background-color:black;
+        color:white;
+        margin: 0;
+        margin-left: 5px;
+    }
+}
